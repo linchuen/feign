@@ -1,2 +1,8 @@
 server:
   port: 8080
+
+#https://docs.spring.io/spring-cloud-openfeign/docs/3.1.9/reference/html/
+feign:
+  httpclient:
+    hc5:
+      enabled: true
